@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link rel="stylesheet" href="styles/main.css">
-    <title>Eval. Final</title>
+    <script src="https://kit.fontawesome.com/3d236d467e.js" crossorigin="anonymous"></script>
+    <title>Open Spaces</title>
 </head>
 <body>
-    <header class="header">
-        <img src="./images/header.jpg" alt="home" class="header-image">
-        <img src="./images/burger.JPG" alt="menu" class="header-burger">
-        <img src="./images/logo.png" alt="logo" class="header-logo">
-        <p class="header-text">Disfruta creando espacios</p>
-        <button name="button">Comprar Ahora</button>
 
+    <header class="header">
+        <section class="header__section-top">
+            <img class="header__section-top--burger" src="./styles/images/burger.png" alt="menu">
+            <img class="header__section-top--logo" src="./styles/images/logo.png" alt="logo">
+        </section>
+        
+        <section class="header__section-bottom">
+            <p class="header__section-bottom--text">Disfruta creando espacios</p>
+            <button class="header__section-bottom--button" name="button">Comprar Ahora</button>
+        </section>
     </header>
+
+
     <main>
         <section>
         Volverse organizado se siente mejor con OPEN SPACES
@@ -47,24 +55,51 @@
 
 
 
-    <footer>
-        Tienda
-        Productos
-        Cajoneras
-        Para toda la Casa
-        Habitaciones
-        Nosotros
-        Nuestra Guia
-        Nuestro diseño
-        Nuestra historia
-        Ayuda
-        Contacto
-        ayuda@openspaces.com
-        Socios
-        Logo linkedin
-        Logo instagram
-        Logo twitter
-        Flecha interactiva
+    <footer class="footer">
+        <article class="footer__list1">
+            <nav>
+                <h2>Tienda</h2>
+                <ul>
+                    <li>Productos</li>
+                    <li>Cajoneras</li>
+                    <li>Para todas la casa</li>
+                    <li>Habitaciones</li>
+                </ul>
+            </nav>
+        </article>
+            
+        <article class="footer__list2">
+            <nav>
+                <h2>Nosotros</h2>
+                <ul>
+                    <li>Nuestra Guia</li>
+                    <li>Nuestro diseñp</li>
+                    <li>Nuestra historia</li>
+                    <li>Ayuda</li>
+                </ul>
+            </nav>
+        </article>
+
+        <article class="footer__list3">
+            <nav>
+                <h2>Contacto</h2>
+                <ul>
+                    <li>ayuda@openspaces.com</li>
+                    <li>socios</li>
+                </ul>
+            </nav>
+        </article>
+
+        <article class="footer__redes-sociales">
+            <nav>
+                <a href="https://es.linkedin.com/" target="_blank"> <i class="fa-brands fa-linkedin-in"></i></a> 
+                <a href="https://www.instagram.com/?hl=es" target="_blank"> <i class="fa-brands fa-instagram"></i></a> 
+                <a href="https://twitter.com/?lang=es" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+            </nav>
+        </article>
+
+        <img class="footer__arrow"src="./styles/images/arrow.png" alt="flecha">
+
     </footer>
 
 </body>
