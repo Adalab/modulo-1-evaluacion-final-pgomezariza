@@ -79,7 +79,7 @@
   justify-content: center;
   margin: 25px;
   padding: 12px 12px;
-  background-color: #0c474b;
+  background-color: var(--darkblue-color);
 }
 
 /* -------------------------Main------------------------ */
@@ -258,10 +258,6 @@
 }
 
 .footer__list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer__arrow {
