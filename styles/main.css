@@ -13,7 +13,6 @@
   --lightblue-color: #b6c8c9;
   --white-color: #ffffff;
   --font-family: "Poppins", sans-serif;
-
 }
 
 /* -------------------------Header------------------------ */
@@ -30,57 +29,56 @@
 
 .header__section-top {
   display: flex;
-  justify-content: center;
   align-items: center;
+  position: sticky;
+  width: 100vw;
 }
 
 .header__section-top--burger {
   width: 24px;
   height: 24px;
+  margin-left: 60px;
 }
 
 .header__section-top--logo {
   width: 213px;
   height: 96px;
-  margin-top: 20px;
+  margin: 20px auto;
 }
 
 .header__section-bottom {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 250px;
 }
 
 .header__section-bottom--text {
   width: 414px;
   height: 38px;
-  font-family: Poppins, sans-serif;
-  font-weight: bold;
-  margin: 100px 0 24px;
-  font-size: 24px;
+  font-family: var(--font-family);
   font-weight: 600;
+  margin: 50vh 0 24px;
+  margin-top: 100px;
+  font-size: 24px;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   text-align: center;
-  color: #0c474b;
+  color: var(--darkblue-color);
 }
 
 .header__section-bottom--button {
   width: 176px;
   height: 48px;
-  font-family: Poppins;
-  color: #ffffff;
+  font-family: var(--font-family);
+  color: var(--white-color);
   font-size: 16px;
+  font-weight: 600;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin: 100px 0 24px
-  padding: 8px 20px;
+  margin: 25px;
+  padding: 12px 12px;
   background-color: #0c474b;
 }
 
@@ -90,7 +88,7 @@
   background-color: var(--grey-color);
   padding: 0 50vw;
   display: grid;
-  justify-content: center;  
+  justify-content: center;
 }
 
 .main__module2--title {
@@ -113,7 +111,6 @@
 .main__module2--article {
   display: grid;
   justify-content: center;
- 
 }
 .main__module2--icon1 {
   margin: 37px auto 47px auto;
@@ -123,7 +120,6 @@
 }
 .main__module2--icon3 {
   margin: 31px auto 30px auto;
-
 }
 .main__module2--title1,
 .main__module2--title2,
@@ -153,18 +149,18 @@
 }
 
 .main__module2--text {
-    width: 208px;
-    height: 96px;
-    flex-grow: 0;
-    font-family: var(--font-family);
-    font-size: 16px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-    text-align: center;
-    color: var(--darkblue-color);
+  width: 208px;
+  height: 96px;
+  flex-grow: 0;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--darkblue-color);
 }
 
 /* -------------------------M.Module 3------------------------ */
@@ -208,36 +204,68 @@
   text-decoration: underline;
 }
 
-
-
 /* -------------------------M.Module 4------------------------ */
+.main__module4 {
+  background-color: var(--grey-color);
+  color: var(--darkblue-color);
+  font-family: var(--font-family);
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
 
+.main__module4--title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 60px auto 0px auto;
+}
+
+.main__module4--text {
+  font-size: 14px;
+}
+
+.main__module4--button {
+  width: 176px;
+  height: 48px;
+  font-family: var(--font-family);
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto 80px auto;
+  padding: 24px 12px;
+  background-color: #0c474b;
+}
+
+.main__module4--image {
+  background-size: cover;
+  max-width: 100vw;
+  height: 30%;
+  margin: auto;
+}
 /* ------------------------Footer----------------------- */
 
 .footer {
-    background-color: var(--darkblue-color);
-    color: var(--lightblue-color);
-    font-family: var(--font-family);
-    
-    
+  background-color: var(--darkblue-color);
+  color: var(--lightblue-color);
+  font-family: var(--font-family);
 }
 
 .footer__list {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.footer__arrow{
-    width: 24px;
-    height: 24px;
-    margin-left: 90vw;
-    
-  
-  
-
-
-
+.footer__arrow {
+  width: 24px;
+  height: 24px;
+  margin-left: 90vw;
 }
