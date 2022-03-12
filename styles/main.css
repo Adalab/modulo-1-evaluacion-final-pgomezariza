@@ -85,7 +85,7 @@
 }
 
 /* -------------------------Main------------------------ */
-/* -------------------------M.Modulo 2------------------------ */
+/* -------------------------M.Module2 2------------------------ */
 .main__module2 {
   background-color: var(--grey-color);
   padding: 0 50vw;
@@ -165,11 +165,52 @@
     letter-spacing: normal;
     text-align: center;
     color: var(--darkblue-color);
-  }  
 }
 
-/* -------------------------M.Modulo 3------------------------ */
-/* -------------------------M.Modulo 4------------------------ */
+/* -------------------------M.Module 3------------------------ */
+.main__module3 {
+  background-color: var(--orange-color);
+  color: var(--white-color);
+  font-family: var(--font-family);
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+}
+.main__module3--van {
+  margin: 0 152px 10px 142px;
+  padding: 12.5px 4px 8px;
+}
+.main__module3--title {
+  width: 414px;
+  height: 41px;
+  margin: 10px 0 0;
+}
+.main__module3-text {
+  width: 375px;
+  height: 31px;
+  margin: 0px 27px 5px 12px;
+  font-size: 14px;
+}
+.main__module3--button {
+  color: var(--white-color);
+  width: 175px;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 5px auto 40px auto;
+  padding: 24px 20px;
+  text-decoration: underline;
+}
+
+
+
+/* -------------------------M.Module 4------------------------ */
 
 /* ------------------------Footer----------------------- */
 
