@@ -255,9 +255,24 @@
   background-color: var(--darkblue-color);
   color: var(--lightblue-color);
   font-family: var(--font-family);
+  margin-top: -20px;
 }
 
 .footer__list {
+  margin: 10px;
+  padding-top: 30px;
+  padding-right: 60px;
+  padding-bottom: 0;
+  padding-left: 145px;
+}
+
+.foorter__list--title {
+  font-size: 20px;
+}
+.footer__list--products1 {
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--grey-color);
 }
 
 .footer__arrow {
