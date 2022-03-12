@@ -12,6 +12,7 @@
   --darkblue-color: #0c474b;
   --lightblue-color: #b6c8c9;
   --white-color: #ffffff;
+  --font-family: "Poppins", sans-serif;
 
 }
 
@@ -91,10 +92,28 @@
 .footer {
     background-color: var(--darkblue-color);
     color: var(--lightblue-color);
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-family);
+    
+    
 }
 
-.footer__list1 {
-
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+
+
+.footer__arrow{
+    width: 24px;
+    height: 24px;
+    margin-left: 90vw;
+    
+  
+  
+
+
+
+}
