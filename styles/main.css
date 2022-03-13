@@ -317,8 +317,8 @@
 
 .main__module4--text {
   font-size: 14px;
-  margin: 0 20px;
-  padding: 0 10px;
+  margin: 0 10px;
+  padding: 0 0;
 }
 
 .main__module4--button {
@@ -344,12 +344,19 @@
 }
 
 @media (min-width: 768px) {
-.main__module4--title {
-  font-size: 30px;  
+  .main__module4--title {
+    font-size: 30px;
+  }
+  .main__module4--text {
+    margin: 0 190px;
+    padding: 0 20px;
+  }
 }
 
-
-
+@media (min-width: 1200px) {
+  .main__module4 {
+  }
+}
 /* ------------------------Footer----------------------- */
 
 .footer {
@@ -360,7 +367,7 @@
 }
 
 .footer__list {
-  margin: 10px;
+  margin: 9px;
   padding-top: 30px;
   padding-right: 60px;
   padding-bottom: 0;
@@ -372,8 +379,18 @@
 }
 .footer__list--products1 {
   font-size: 14px;
-  text-decoration: none;
   color: var(--grey-color);
+}
+
+.footer__link {
+  color: var(--lightblue-color);
+}
+.fa-linkedin-in,
+fa-instagram,
+fa-twitter {
+  width: 24px;
+  height: 24px;
+  display: inline;
 }
 
 .footer__arrow {
