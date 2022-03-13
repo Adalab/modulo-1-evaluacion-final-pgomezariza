@@ -2,8 +2,8 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  text-decoration: none;
   list-style: none;
+  text-decoration: none;
 }
 
 :root {
@@ -20,11 +20,10 @@
 .header {
   background-image: url(./images/header.jpg);
   background-size: auto;
-  height: 100vh;
-  min-height: 389px;
+  height: 389px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 60%;
 }
 
 .header__section-top {
@@ -37,7 +36,7 @@
 .header__section-top--burger {
   width: 24px;
   height: 24px;
-  margin-left: 60px;
+  margin-left: 45px;
 }
 
 .header__section-top--logo {
@@ -57,8 +56,7 @@
   height: 38px;
   font-family: var(--font-family);
   font-weight: 600;
-  margin: 50vh 0 24px;
-  margin-top: 100px;
+  margin: 10vh 0 5px;
   font-size: 24px;
   font-stretch: normal;
   font-style: normal;
@@ -77,8 +75,8 @@
   font-weight: 600;
   display: flex;
   justify-content: center;
-  margin: 25px;
-  padding: 12px 12px;
+  margin: 17px;
+  padding: 10px 12px;
   background-color: var(--darkblue-color);
 }
 
@@ -105,7 +103,6 @@
   letter-spacing: normal;
   text-align: center;
   color: var(--darkblue-color);
-  font-weight: bold;
 }
 
 .main__module2--article {
@@ -163,6 +160,26 @@
   color: var(--darkblue-color);
 }
 
+@media (min-width: 768px) {
+  .main__module2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .main__module2--title {
+    width: 100vw;
+    height: 38px;
+    grid-column: span 3;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--darkblue-color);
+  }
+  .main__module2--icon1 {
+    margin: 20px auto 47px auto;
+  }
+}
 /* -------------------------M.Module 3------------------------ */
 .main__module3 {
   background-color: var(--orange-color);
@@ -177,13 +194,13 @@
   justify-content: center;
 }
 .main__module3--van {
-  margin: 0 152px 10px 142px;
-  padding: 12.5px 4px 8px;
+  margin: 0 152px 0px 142px;
+  padding: 40px 4px 0px;
 }
 .main__module3--title {
   width: 414px;
   height: 41px;
-  margin: 10px 0 0;
+  margin: 5px 0 0;
 }
 .main__module3-text {
   width: 375px;
