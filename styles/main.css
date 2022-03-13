@@ -100,6 +100,12 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .header {
+    height: 1024px;
+    background-position: center;
+  }
+}
 /* -------------------------Main------------------------ */
 /* -------------------------M.Module2 2------------------------ */
 .main__module2 {
