@@ -122,7 +122,7 @@
   padding: 30px 20px;
   font-family: var(--font-family);
   font-size: 24px;
-  font-weight: 600;
+  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -149,10 +149,9 @@
 .main__module2--title3 {
   width: 208px;
   height: 23px;
-  flex-grow: 0;
   font-family: var(--font-family);
   font-size: 20px;
-  font-weight: 600;
+  font-weight: bold;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
@@ -168,7 +167,7 @@
   margin-bottom: 50px;
 }
 .main__module2--title3 {
-  margin-bottom: 14px;
+  margin-bottom: 15px;
 }
 
 .main__module2--text {
@@ -189,7 +188,7 @@
 @media (min-width: 768px) {
   .main__module2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .main__module2--title {
@@ -199,13 +198,37 @@
     text-align: center;
     font-family: var(--font-family);
     font-size: 24px;
-    font-weight: 600;
+    font-weight: bold;
+    margin: 30px;
     color: var(--darkblue-color);
   }
   .main__module2--icon1 {
-    margin: 20px auto 47px auto;
+    margin: 35px auto 47px auto;
+  }
+  .main__module2--title1 {
+    margin-top: -15px;
+    margin-bottom: 0;
+  }
+  .main__module2--title3 {
+    margin-bottom: 0px;
+  }
+
+  .main__module2--text {
+    margin: -10px 0 50px;
   }
 }
+
+@media (min-width: 1200px) {
+  .main__module2--title {
+    font-size: 36px;
+  }
+  .main__module2--title1,
+  .main__module2--title2,
+  .main__module2--title3 {
+    font-size: 24px;
+  }
+}
+
 /* -------------------------M.Module 3------------------------ */
 .main__module3 {
   background-color: var(--orange-color);
@@ -228,7 +251,7 @@
   height: 41px;
   margin: 5px 0 0;
 }
-.main__module3-text {
+.main__module3--text {
   width: 375px;
   height: 31px;
   margin: 0px 27px 5px 12px;
@@ -247,7 +270,32 @@
   text-decoration: underline;
 }
 
+@media (min-width: 768px) {
+  .main__module3--title {
+    font-size: 30px;
+  }
+  .main__module3--text {
+    font-size: 14px;
+  }
+  .main__module3--button {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main__module3--title {
+    font-size: 36px;
+  }
+  .main__module3--text {
+    font-size: 16px;
+  }
+  .main__module3--button {
+    font-size: 16px;
+  }
+}
+
 /* -------------------------M.Module 4------------------------ */
+
 .main__module4 {
   background-color: var(--grey-color);
   color: var(--darkblue-color);
