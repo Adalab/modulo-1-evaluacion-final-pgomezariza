@@ -125,7 +125,6 @@
     color: var(--darkblue-color); } }
 
 /* -------------------------Main------------------------ */
-/* -------------------------M.Module2 2------------------------ */
 .main__module2 {
   background-color: var(--grey-color);
   padding: 0 50vw;
@@ -230,7 +229,6 @@
   .main__module2--title3 {
     font-size: 24px; } }
 
-/* -------------------------M.Module 3------------------------ */
 .main__module3 {
   background-color: var(--orange-color);
   color: var(--white-color);
@@ -288,7 +286,6 @@
   .main__module3--button {
     font-size: 16px; } }
 
-/* -------------------------M.Module 4------------------------ */
 .main__module4 {
   background-color: var(--grey-color);
   color: var(--darkblue-color);

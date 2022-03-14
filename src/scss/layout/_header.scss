@@ -1,0 +1,120 @@
+.header {
+  background-image: url(../../assets/images/header.jpg);
+  background-size: auto;
+  height: 389px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 60%;
+}
+
+.header__section-top {
+  display: flex;
+  align-items: center;
+  position: sticky;
+  width: 100vw;
+}
+.header__section-top--links {
+  display: none;
+}
+.header__section-top--burger {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+}
+.header__section-top--burger:hover {
+  opacity: 0.3;
+}
+
+.header__section-top--logo {
+  width: 213px;
+  height: 96px;
+  margin: 20px auto;
+}
+
+.header__section-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__section-bottom--text {
+  width: 414px;
+  height: 38px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  margin: 10vh 0 5px;
+  font-size: 24px;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--darkblue-color);
+}
+
+.header__section-bottom--button {
+  width: 176px;
+  height: 48px;
+  font-family: var(--font-family);
+  color: var(--white-color);
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  margin: 17px;
+  padding: 10px 12px;
+  background-color: var(--darkblue-color);
+}
+
+.header__section-bottom--button:hover {
+  opacity: 0.3;
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 822px;
+    background-position: 80%;
+  }
+  .header__section-bottom {
+    align-items: flex-start;
+  }
+
+  .header__section-bottom--text {
+    margin: 14vh 145px 125px;
+    padding-top: 90px;
+    font-size: 36px;
+    text-align: left;
+  }
+  .header__section-bottom--button {
+    margin: 0 145px 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    height: 1024px;
+    background-position: center;
+  }
+  .header__section-top {
+    display: flex;
+    flex-direction: row;
+  }
+  .header__section-top--burger {
+    display: none;
+  }
+  .header__section-top--links {
+    width: 97px;
+    height: 23px;
+    flex-grow: 0;
+    font-family: var(--font-family);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin-left: 100px;
+  }
+
+  .header__section-top--link {
+    color: var(--darkblue-color);
+  }
+}
