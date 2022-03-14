@@ -407,6 +407,7 @@
     font-size: 16px;
   }
 }
+
 /* ------------------------Footer----------------------- */
 
 .footer {
@@ -434,45 +435,3 @@
   margin-left: 90vw;
   margin-bottom: 20px;
 }
-
-/*.footer {
-  background-color: var(--darkblue-color);
-  color: var(--lightblue-color);
-  font-family: var(--font-family);
-  display: grid;
-  margin-top: -36px;
-}
-
-.footer__list {
-  margin-top: 30px;
-  margin-right: 30px;
-  margin-bottom: 0px;
-  margin-right: 100px;
-}
-
-.foorter__list--title {
-  font-size: 20px;
-  margin-top: 30px;
-}
-.footer__list--products1 {
-  font-size: 14px;
-  color: var(--grey-color);
-}
-
-.footer__link {
-  color: var(--lightblue-color);
-}
-.fa-linkedin-in,
-fa-instagram,
-fa-twitter {
-  width: 24px;
-  height: 26px;
-}
-
-.footer__arrow {
-  width: 24px;
-  height: 24px;
-  margin-bottom: 50px;
-  margin-left: 85vw;
-}
-*/ ;
