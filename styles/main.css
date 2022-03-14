@@ -32,7 +32,9 @@
   position: sticky;
   width: 100vw;
 }
-
+.header__section-top--links {
+  display: none;
+}
 .header__section-top--burger {
   width: 24px;
   height: 24px;
@@ -374,9 +376,8 @@
 
 .main__module4--image {
   max-width: 100%;
-  height: cover;
+  height: 100%;
   margin: auto;
-  background-size: cover;
 }
 
 @media (min-width: 768px) {
