@@ -36,7 +36,7 @@
 .header__section-top--burger {
   width: 24px;
   height: 24px;
-  margin-left: 45px;
+  margin-left: 20px;
 }
 .header__section-top--burger:hover {
   opacity: 0.3;
@@ -112,7 +112,30 @@
     height: 1024px;
     background-position: center;
   }
+  .header__section-top {
+    display: flex;
+    flex-direction: row;
+  }
+  .header__section-top--burger {
+    display: none;
+  }
+  .header__section-top--links {
+    width: 97px;
+    height: 23px;
+    flex-grow: 0;
+    font-family: var(--font-family);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin-left: 100px;
+  }
+
+  .header__section-top--link {
+    color: var(--darkblue-color);
+  }
 }
+
 /* -------------------------Main------------------------ */
 /* -------------------------M.Module2 2------------------------ */
 .main__module2 {
@@ -409,6 +432,7 @@ fa-twitter {
 .footer__arrow {
   width: 24px;
   height: 24px;
+  margin-bottom: 50px;
   margin-left: 90vw;
 }
 
