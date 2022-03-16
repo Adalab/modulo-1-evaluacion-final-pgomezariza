@@ -352,7 +352,7 @@
 
 /* ------------------------Footer----------------------- */
 .footer {
-  background-color: var(--darkblue-color);
+  background-color: var(--orange-color);
   font-family: var(--font-family); }
 
 .footer__list {
@@ -360,11 +360,15 @@
   padding: 40px 60px 0 150px; }
 
 .foorter__list--title {
-  color: var(--lightblue-color);
+  color: black;
   font-size: 20px; }
 
+@media (min-width: 768px) {
+  .white {
+    color: white; } }
+
 .footer__link {
-  color: var(--lightblue-color);
+  color: black;
   font-size: 14px; }
 
 .footer__arrow {

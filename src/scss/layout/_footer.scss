@@ -1,5 +1,5 @@
 .footer {
-  background-color: var(--darkblue-color);
+  background-color: var(--orange-color);
   font-family: var(--font-family);
 }
 
@@ -9,11 +9,18 @@
 }
 
 .foorter__list--title {
-  color: var(--lightblue-color);
+  color: black;
   font-size: 20px;
 }
+
+@media (min-width: 768px) {
+  .white {
+    color: white;
+  }
+}
+
 .footer__link {
-  color: var(--lightblue-color);
+  color: black;
   font-size: 14px;
 }
 
